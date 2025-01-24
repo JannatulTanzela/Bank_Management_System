@@ -57,7 +57,7 @@ void account::create_account() {
     }
 
     cin.ignore(); // Ignore leftover newline from the account number input
-    cout << "\n\n\tPlease Enter the Name of the Account holder Here : ";
+    cout << "\n\n\tEnter the Name of the Account holder Here : ";
     while (true) {
         cin.getline(name, 50);
         if (strlen(name) == 0) {
